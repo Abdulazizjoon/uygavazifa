@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.top_header{
+    display: flex;
+    background-color: #000;
+    height: 48px;
+}
+.header_parent{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #FAFAFA;
+    margin-top:15px;
+    margin-left: 445px;
+    margin-right:8px;
+}
+.text_shopnow{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FAFAFA;
+    margin-top:13px;
+}
+#select{
+    background-color: #000;
+    border: 0px     ;
+    color: #FAFAFA;
+    width: 78px;
+    height: 24px;
+    margin-left: 231px;
+    margin-top: 13.5px;
+}
+.hed{
+    display: flex;
+    margin-top: 40px;
+    height: 38px;
+    width: 1230px;
+}
+.hed p{
+    margin-left:48px;
+    margin-top: 10px;
+}
+.hed input{
+    margin-left: 130px;
+    border: 0px;
+    background-color: #f5f5f5;
+    width: 243px;
+    height: 38px;
+}
+.kompanent{
+    position: absolute;
+    top: 95px;
+    left: 1190px;
+}
+.hed img{
+    cursor: pointer;
+}
+.perent_companent img{
+    width: 32px;
+    height: 32px;
+    margin-left: 16px;
+}
+.perent_companent{
+    margin-left: 24px;
+}
+.frame{
+    margin-top: 96px;
+}
+.layout{
+    display: flex;
+    gap: 835px;
+    height: 56px;
+}
+.layout :nth-child(1){
+    font-size: 20px;
+    line-height: 26px;
+}
+.layout :nth-child(2){
+    font-size: 16px;
+    line-height: 24px;
+    width: 223px;
+    height: 56px;
+    background-color: #fff;
+    border: 1px solid #7f7f7f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.parent_card{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+.chegirma{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.card_img{
+    margin-top: 41px;
+    margin-left: 46px;
+}
+.delete_img{
+    position: absolute;
+    top: 12px;
+    left:224px;
+    cursor: pointer;
+}
+.button{
+    width: 270px;
+    height: 41px;
+    border: 0px;
+    background-color: #000;
+    border-radius: 0px 0px 4px 4px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    margin-top:35px;
+}
+.button img{
+    margin-right: 75px;
+}
+.add_tocat{
+    bottom:12px;
+    right: 80px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+}
+.cucci{
+    font-size:20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight:500;
+    line-height: 24px;
+}
+.flex{
+    display: flex;
+    font-weight:500;
+    gap: 12px;
+}
+.new_price{
+    color: #DB4444;
+}
+.old_price{
+    color: #000;
+    opacity: 70%;
+    text-decoration: line-through;
+}
+.cardlar{
+    display: flex;
+    gap: 30px;
+}
+.seel{
+    display: flex;
+    margin-top: 88px;
+    margin-bottom: 60px;
+}
+.seel :nth-child(1){
+    width: 20px;
+    height: 40px;
+}
+.seel :nth-child(2){
+    width: 120px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 864px;
+}
+.seel :nth-child(3){
+    width: 150px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #8f8f8f;
+    cursor: pointer;
+}
+.component_card{
+    display: flex;
+    gap:30px;
+}
+.footer{
+    display: flex;
+}
+footer{
+    width: 1519px;
+    height: 440px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 140px;
+    
+}
+.excluziv{
+    padding-top: 80px;
+    margin-left: 135px;
+}
+.excluziv p{
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.excluziv input{
+    background-color: #000;
+    color: #FAFAFA;
+    width: 217px;
+    height:48px;
+    /* padding: 12px 0px 12px 16px; */
+    border-radius: 4px;
+    border: 1.5px solid #fff;
+}
+.opasity{
+    position: absolute;
+    left: 313px;
+    top: 1614px;
+    cursor: pointer;
+}
+.support{
+    margin-left: 87px;
+    margin-top: 80px;
+}
+.support p{
+    margin-top: 20px;
+}
+.support :nth-child(2){
+    width: 175px;
+    height: 48px;
+}
+.akkaunt{
+    margin-top: 80px;
+    margin-left: 87px;
+}
+.akkaunt p{
+    margin-top: 16px;
+}
+.link{
+    margin-top: 80px;
+    margin-left:87px;
+}
+.link p{
+    margin-top: 16px;
+}
+.app{
+    width: 110px;
+    height: 84px;
+    margin-left: 8px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.dowload{
+    margin-top: 80px;
+    margin-left: 87px;
+}
+.qr{
+    display: flex
+}
+.icon img{
+    margin-left: 19px;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 24px;
+}
+.tiziq{
+    background-color:#141414;
+    height: 1px;
+    width: 100%;
+    margin-top: 60px;
+}
+.copright{
+    display: flex;
+    margin-top: 16px;
+    text-align: center;
+    margin-left: 555px;
+    opacity: 60%;
+    line-height: 24px;
+}
