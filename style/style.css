@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins';
+
+}
 .container{
     max-width: 1170px;
     width: 100%;
@@ -290,4 +294,7 @@ footer{
     margin-left: 555px;
     opacity: 60%;
     line-height: 24px;
+}
+footer{
+    font-family: 'Inter';
 }
